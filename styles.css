@@ -303,6 +303,8 @@ body {
 
 //Experience and additional info styles
 
+//Employment experience
+
 .work-list {
   margin-bottom: 45px;
   padding: 0;
@@ -354,49 +356,30 @@ body {
   color: var(--primary-text-color);
 }
 
-.additional-info {
-  flex: 1 1 40%;
-}
+//Education
 
-.additional-info__education {
+.education-list {
+  list-style: none;
+}
+.education-item {
+  list-style: none;
   margin-bottom: 20px;
 }
 
-.additional-info__education-header {
-  color: var(--secondary-text-color);
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.additional-info__education-university-durability {
-  color: var(--durability-text-color);
-  text-align: left;
-  margin-bottom: 10px;
-  font-size: 15px;
-}
-
-.additional-info__education-university-speciality {
+.institution {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
   color: var(--primary-text-color);
-  text-align: left;
+  margin-bottom: 5px;
+}
+
+.major {
   margin-bottom: 10px;
-}
-
-.additional-info__education-university-name {
-  color: var(--secondary-text-color);
-}
-
-.additional-info__languages {
-  margin-bottom: 20px;
-}
-
-.additional-info__languages-header {
-  color: var(--secondary-text-color);
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.additional-info__languages-item {
-  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  color: var(--text-decoration-color);
 }
 
 @media screen and (max-width: 576px) {
@@ -429,9 +412,5 @@ body {
 
   .contact-info__block:not(:last-child) {
     margin-bottom: 20px;
-  }
-
-  .experiences {
-    margin-right: 0;
   }
 }
