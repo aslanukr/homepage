@@ -248,24 +248,21 @@ body {
   font-weight: 600;
   font-size: 18px;
   color: var(--primary-text-color);
+  margin-bottom: 15px;
 }
 
 .skills__wrapper {
   display: flex;
   flex-direction: column;
-}
-
-.tech-skills__wrapper {
-  display: flex;
-  flex-direction: column;
+  gap: 10px;
 }
 
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
   gap: 40px;
   justify-content: space-between;
+  list-style: none;
 }
 
 .skills-list___item {
@@ -295,6 +292,32 @@ body {
 .skills__item-icon {
   width: 100%;
   height: 100%;
+}
+
+.soft-skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.soft-skills__item {
+  width: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  height: auto;
+  border: 1px solid var(--text-decoration-color);
+  font-weight: 600;
+  color: var(--secondary-text-color);
+  transition: background-color 0.5s ease;
+}
+
+.soft-skills__item:hover {
+  background-color: var(--text-decoration-color);
+  color: white;
 }
 
 //Experience and additional info styles
