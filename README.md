@@ -25,20 +25,6 @@ to success in IT development is a Team, committed to delivering exceptional resu
 - **Databases:** MongoDB
 - **Tools:** Git
 
----
-
-## 🚀 Projects
-
-### [Project Name](https://github.com/username/project-name)
-
-A brief description of what the project does and its key features.
-
-### [Another Project](https://github.com/username/another-project)
-
-A brief description of what the project does and its key features.
-
----
-
 ## 📫 Contact
 
 - **LinkedIn:** [Vitaliy Korostylov](https://www.linkedin.com/in/vitaliy-korostylov/)
