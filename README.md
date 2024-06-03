@@ -20,24 +20,21 @@ to success in IT development is a Team, committed to delivering exceptional resu
 
 ## 🛠️ Skills
 
-- **Languages:** JavaScript
-- **Frameworks:** React, Node.js
-- **Databases:** MongoDB
-- **Tools:** Git
+Java Script
+HTML5
+Git
+GitHub
+REST API
+Parcel
+CSS3
+SASS
+React
+Node.js
+Vite
+MongoDB
+Swagger
+Postman
 
----
-
-## 🚀 Projects
-
-### [Project Name](https://github.com/username/project-name)
-
-A brief description of what the project does and its key features.
-
-### [Another Project](https://github.com/username/another-project)
-
-A brief description of what the project does and its key features.
-
----
 
 ## 📫 Contact
 
