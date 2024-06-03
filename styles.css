@@ -328,6 +328,53 @@ body {
 
 //Experience and additional info styles
 
+//Projects
+
+.project-list {
+  list-style: none;
+}
+
+.project-list___item {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.project-link {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--primary-text-color);
+  margin-bottom: 5px;
+  text-decoration: underline;
+  text-decoration-color: var(--text-decoration-color);
+  transition: color 0.5s ease;
+}
+
+.project-link:hover,
+.project-link:focus {
+  color: var(--text-decoration-color);
+}
+
+.project-link___wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.project__repo-icon-wrapper {
+  width: 24px;
+  height: 24px;
+}
+
+.project-icon path {
+  fill: var(--icon-color);
+  transition: fill 0.5s ease;
+}
+
+.project-repo___link:hover .project-icon path,
+.project-repo___link:focus .project-icon path {
+  fill: var(--text-decoration-color);
+}
+
 //Employment experience
 
 .work-list {
@@ -337,11 +384,6 @@ body {
 }
 
 .work-list___item {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
   list-style: none;
   margin-bottom: 20px;
 }
@@ -352,7 +394,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: var(--primary-text-color);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .organization {
@@ -400,7 +442,7 @@ body {
 }
 
 .major {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-weight: 700;
   font-size: 16px;
   line-height: 17px;
