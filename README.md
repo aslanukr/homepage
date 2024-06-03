@@ -20,10 +20,20 @@ to success in IT development is a Team, committed to delivering exceptional resu
 
 ## 🛠️ Skills
 
-- **Languages:** JavaScript
-- **Frameworks:** React, Node.js
-- **Databases:** MongoDB
-- **Tools:** Git
+Java Script
+HTML5
+Git
+GitHub
+REST API
+Parcel
+CSS3
+SASS
+React
+Node.js
+Vite
+MongoDB
+Swagger
+Postman
 
 
 ## 📫 Contact
